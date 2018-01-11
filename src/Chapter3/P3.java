@@ -16,7 +16,7 @@ public class P3 {
      * @param args arguments from command line prompt
      */
 
-    public static void main() {
+     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
         System.out.println("Please enter two numbers");
