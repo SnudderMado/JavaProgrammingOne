@@ -28,8 +28,8 @@ public class C6_18 {
 
     }
     /**
-     *is passed user input to judge if the password is valid
-     * @param String password
+     *
+     * @param password is passed user input to judge if the password is valid
      */
     public static boolean isValidPassword(String password) {
 

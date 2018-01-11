@@ -54,10 +54,9 @@ public class P6 {
     }
     /**
      * conversion
-     * calculates the amount the conversion will cost
      *
-     * @param double exchange
-     * @param double currency
+     * @param exchange calculates the amount the conversion will cost
+     * @param currency amount you want to buy
      */
     public static double conversion(double exchange, double currency) {
         if (exchange > 100) {
