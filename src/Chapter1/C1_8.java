@@ -7,12 +7,11 @@ package Chapter1;
  */
 public class C1_8 {
 
-        /**
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         double rad = 5.5;
         double perim = 2 * rad * 3.14;

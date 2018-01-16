@@ -10,12 +10,11 @@ import java.util.Scanner;
  */
 public class C4_23 {
 
-        /**
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

@@ -10,12 +10,11 @@ import java.util.Scanner;
  */
 public class P2 {
 
-       /**
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         // TODO code application logic here
 

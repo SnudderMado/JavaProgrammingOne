@@ -10,12 +10,11 @@ import java.util.Scanner;
  */
 public class C3_33 {
 
-        /**
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println(" Enter the weight and price of package 1: ");

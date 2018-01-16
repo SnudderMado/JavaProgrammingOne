@@ -1,11 +1,15 @@
-
 package Chapter6;
-    import java.util.Scanner;
+
+import java.util.Scanner;
+
 /**
- *accepts user input for amounts of different currencies they would like to exchange
+ * accepts user input for amounts of different currencies they would like to
+ * exchange
+ *
  * @author Sydney Baxter
  */
 public class P6 {
+
     /**
      * Main Method
      *
@@ -52,17 +56,19 @@ public class P6 {
         } while (answer.equalsIgnoreCase("Yes"));
         System.out.println("Thank You for Converting with us");
     }
+
     /**
      * conversion
      *
      * @param exchange calculates the amount the conversion will cost
      * @param currency amount you want to buy
+     * @return the amount exchanged plus rates
      */
     public static double conversion(double exchange, double currency) {
         if (exchange > 100) {
             return (exchange * .95 * currency);
         } else {
-             return (exchange * .90 * currency);
+            return (exchange * .90 * currency);
         }
 
     }

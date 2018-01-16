@@ -9,12 +9,11 @@ import java.util.Scanner;
  */
 public class C4_18 {
 
-        /**
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter your major: M,C,I and your year: 1,2,3,4");

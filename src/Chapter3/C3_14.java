@@ -10,12 +10,11 @@ import java.util.Scanner;
  */
 public class C3_14 {
 
-        /**
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print(" Please enter your guess > 0 for heads, 1 for Tails");

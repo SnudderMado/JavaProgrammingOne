@@ -7,12 +7,11 @@ package Chapter1;
  */
 public class C1_5 {
 
-        /**
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         double x = 9.5;
         double y = 4.5;

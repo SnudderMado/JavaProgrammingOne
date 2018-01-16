@@ -1,12 +1,15 @@
-
 package Chapter6;
-    import java.util.Scanner;
+
+import java.util.Scanner;
+
 /**
- * accepts a user input password, and then decides if the password is valid based 
- * on a set of parameters
+ * accepts a user input password, and then decides if the password is valid
+ * based on a set of parameters
+ *
  * @author Sydney Baxter
  */
 public class C6_18 {
+
     /**
      * Main Method
      *
@@ -17,19 +20,22 @@ public class C6_18 {
 
         System.out.println("Please enter your password…");
         String pass = input.nextLine();
-      
+
         //just have code here that calls the method and displays valid or invalid password
         //based on the logic
-        if(isValidPassword(pass) == true){
-           System.out.println("Password is Valid");
-        }else {
-           System.out.println("Invalid Password");
+        if (isValidPassword(pass) == true) {
+            System.out.println("Password is Valid");
+        } else {
+            System.out.println("Invalid Password");
         }
 
     }
+
     /**
+     * method checks if the input password meets each parameter to be accepted
      *
      * @param password is passed user input to judge if the password is valid
+     * @return true if the password meets all parameters
      */
     public static boolean isValidPassword(String password) {
 

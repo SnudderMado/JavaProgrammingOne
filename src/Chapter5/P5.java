@@ -1,11 +1,15 @@
-
 package Chapter5;
-    import java.util.Scanner;
+
+import java.util.Scanner;
+
 /**
- *accepts votes by user input, and quits on command, displaying the number of yes and no votes
+ * accepts votes by user input, and quits on command, displaying the number of
+ * yes and no votes
+ *
  * @author Sydney Baxter
  */
 public class P5 {
+
     /**
      * Main Method
      *

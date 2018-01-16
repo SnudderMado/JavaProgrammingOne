@@ -10,13 +10,12 @@ import java.util.Scanner;
  */
 public class P3 {
 
-       /**
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
-     public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Please enter two numbers");
