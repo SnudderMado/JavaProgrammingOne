@@ -1,5 +1,5 @@
-
 package Chapter7;
+
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -9,15 +9,16 @@ import java.util.Arrays;
  * @author Sydney Baxter
  */
 public class C7_2 {
-     /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter 10 numbers");
-        double [] score = new double[10];
+        double[] score = new double[10];
         //fill the array
         System.out.println("Please enter " + score.length + " scores...");
         for (int x = 0; x < score.length; x++) {
@@ -26,13 +27,15 @@ public class C7_2 {
 
         //get the minimun
         System.out.println("The minimum number is " + min(score));
-        
+
     }
-/**
- * sorts array
- * @param array array filled with user input
- * @return 
- */
+
+    /**
+     * sorts array
+     *
+     * @param array array filled with user input
+     * @return
+     */
     public static double min(double[] array) {
         Arrays.sort(array); //this sorts your array in ascending order
         //if your array is sorted, where is the minimum number going to be
@@ -40,4 +43,3 @@ public class C7_2 {
         return array[0];
     }
 }
-

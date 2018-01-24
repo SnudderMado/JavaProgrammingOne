@@ -1,18 +1,20 @@
-
 package Chapter8;
+
 import java.util.Scanner;
+
 /**
  * tracks the sales of a salesperson
  *
  * @author Sydney Baxter
  */
 public class P8 {
-     /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         // Declaring variables
         Scanner keyboard = new Scanner(System.in);
         String[] salesmanID = {"A", "B", "C", "D"};
@@ -83,4 +85,3 @@ public class P8 {
         return foundAt;
     }
 }
-

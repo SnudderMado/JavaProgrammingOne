@@ -1,21 +1,22 @@
-
 package Chapter7;
+
 import java.util.Scanner;
+
 /**
  * sorts and grades the scores of students
  *
  * @author Sydney Baxter
  */
 public class C7_1 {
-     /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        
         System.out.println("Please enter how many students...");
         int students = input.nextInt();
         int score[] = new int[students];
@@ -25,15 +26,15 @@ public class C7_1 {
         for (int x = 0; x < students; x++) {
             score[x] = input.nextInt();
         }
-        
+
         //getting the best score
         int bestScore = 0;
         for (int x = 0; x < students; x++) {
-            if(score[x] > bestScore) {
+            if (score[x] > bestScore) {
                 bestScore = score[x];
             }
         }
-            
+
         //displaying output
         for (int x = 0; x < students; x++) {
 
