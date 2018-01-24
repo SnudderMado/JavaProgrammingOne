@@ -44,7 +44,7 @@ public class P7 {
      * averages array
      *
      * @param entered entered values
-     * @return
+     * @return returns the average of the numbers entered
      */
     public static double averager(int[] entered) {
 
